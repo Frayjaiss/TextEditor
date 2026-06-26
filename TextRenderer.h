@@ -8,6 +8,13 @@ typedef struct {
     int col;
 }Cursor;
 
+typedef struct{
+
+    int rowStartIndx;
+    int rowSize;
+
+}rowInfo;
+
 enum cursorMovement {CURSOR_ABSOLUTE,CURSOR_RELATIVE};
 
 
